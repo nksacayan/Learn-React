@@ -4,7 +4,11 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  React.createElement("h1", null, "Hello!"),
+  <ul>
+    <li>Gintama</li>
+    <li>Jojo</li>
+    <li>Yu-Gi-Oh</li>
+  </ul>,
   document.getElementById("root")
 );
 
